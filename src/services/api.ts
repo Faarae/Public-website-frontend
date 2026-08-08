@@ -10,7 +10,7 @@ const getBaseURL = () => {
     }
     return '/api';
   }
-  return 'http://localhost:8080/api';
+  return 'https://public-website-backend-production.up.railway.app/api';
 };
 
 const api = axios.create({
