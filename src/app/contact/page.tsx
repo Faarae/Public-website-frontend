@@ -104,14 +104,7 @@ export default function ContactPage() {
 
               {/* Map Placeholder or Embed */}
               <div className="bg-slate-200 border border-slate-300 rounded-3xl h-[220px] overflow-hidden relative shadow-sm">
-                <iframe
-                  title="Google Maps Embed"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1139.5819918599434!2d98.61412146537555!3d3.5979445938595878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312e5f0f6ab605%3A0xa6695250f3328240!2sCinta%20Damai%2C%20Medan%20Helvetia%2C%20Medan%20City%2C%20North%20Sumatra!5e1!3m2!1sen!2sid!4v1785411443047!5m2!1sen!2sid"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  loading="lazy"
-                ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295.56884482931184!2d98.61468221171735!3d3.5982539871130252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f003b0ac2ef%3A0x4be0294f6928ac66!2sGrosir%20Vivi!5e1!3m2!1sen!2sid!4v1786204632498!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
               </div>
             </div>
 
