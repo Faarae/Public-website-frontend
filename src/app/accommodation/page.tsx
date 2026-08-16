@@ -8,8 +8,8 @@ import PublicFooter from "@/components/PublicFooter";
 export default function AccommodationPage() {
   const villas = [
     {
-      id: "aruna",
-      name: "Villa Aruna",
+      id: "zain",
+      name: "Villa Zain",
       description: "Pemandangan taman tropis yang luas dengan teras pribadi yang intim. Mengusung konsep kehangatan kayu dan kaca dengan akses alami ke balkon privat.",
       bedrooms: 2,
       bathrooms: 2,
@@ -18,8 +18,8 @@ export default function AccommodationPage() {
       imageUrl: "/kamar atas.jpeg",
     },
     {
-      id: "bhumi",
-      name: "Villa Bhumi",
+      id: "nina",
+      name: "Villa Nina",
       description: "Akses langsung ke kolam renang outdoor privat dengan ruang tamu konsep terbuka yang mewah. Dilengkapi tempat tidur terapung dan interior minimalis.",
       bedrooms: 2,
       bathrooms: 2,

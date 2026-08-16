@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 export default function PublicFooter() {
-  const googleMapsUrl = "https://maps.google.com/?q=3.5979445938595878,98.61412146537555";
+  const googleMapsUrl = "https://maps.google.com/?q=3.5984507683274427,98.61450517411738";
   const whatsappUrl = "https://wa.me/6282179366767";
   const emailUrl = "mailto:g4aproject@gmail.com";
   const instagramUrl = "https://instagram.com/ghiffar.64";
@@ -12,7 +12,7 @@ export default function PublicFooter() {
     <footer className="bg-surface-container-lowest border-t border-outline/10 w-full pt-16 pb-12" id="kontak">
       <div className="px-6 md:px-16 max-w-container-max-width mx-auto space-y-12">
         
-        {/* Google Maps Section Card (Lembang, Bandung Location) */}
+        {/* Google Maps Section Card */}
         <div className="space-y-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
             <div>
@@ -50,13 +50,13 @@ export default function PublicFooter() {
             {/* Embedded Google Maps iFrame */}
             <iframe
               title="Google Maps Location - d Zain al Mansion"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1139.5819918599434!2d98.61412146537555!3d3.5979445938595878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312e5f0f6ab605%3A0xa6695250f3328240!2sCinta%20Damai%2C%20Medan%20Helvetia%2C%20Medan%20City%2C%20North%20Sumatra!5e1!3m2!1sen!2sid!4v1785411443047!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449.6156300270276!2d98.61450517411738!3d3.5984507683274427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f003b0ac2ef%3A0x4be0294f6928ac66!2sGrosir%20Vivi!5e1!3m2!1sen!2sid!4v1786871444796!5m2!1sen!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen={false}
+              allowFullScreen={true}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
               className="w-full h-full grayscale-[0.15] contrast-[1.05] group-hover:grayscale-0 transition-all duration-500"
             />
           </div>
@@ -70,7 +70,7 @@ export default function PublicFooter() {
               d Zain al Mansion
             </h2>
             <p className="font-body text-sm text-on-surface-variant max-w-xs leading-relaxed">
-              Pengalaman menginap mewah yang memadukan arsitektur modern dengan ketenangan alam tropis Indonesia.
+              Pengalaman menginap mewah dan privat di jantung Kota Medan yang memadukan kenyamanan modern dengan ketenangan.
             </p>
             <div className="flex gap-3 pt-2">
               <a

@@ -1,49 +1,46 @@
-import axios from 'axios';
+import axios from "axios";
 
 const getBaseURL = () => {
-  if (typeof process !== 'undefined' && process.env.NEXT_PUBLIC_API_URL) {
+  if (typeof window !== "undefined" && process.env.NEXT_PUBLIC_API_URL) {
     return process.env.NEXT_PUBLIC_API_URL;
   }
-  if (typeof window !== 'undefined') {
-    if (window.location.port === '3000') {
+
+  if (typeof window !== "undefined") {
+    if (window.location.port === "3000") {
       return `http://${window.location.hostname}:8080/api`;
     }
-    return '/api';
+    return "/api";
   }
-  return 'http://localhost:8080/api';
+
+  return "http://localhost:8080/api";
 };
 
 const api = axios.create({
   baseURL: getBaseURL(),
 });
 
-// Request interceptor to append JWT token
-api.interceptors.request.use(
-  (config) => {
-    if (typeof window !== 'undefined') {
-      const token = localStorage.getItem('token');
-      if (token) {
-        config.headers.Authorization = `Bearer ${token}`;
-      }
+api.interceptors.request.use((config) => {
+  if (typeof window !== "undefined") {
+    const token = window.localStorage.getItem("token");
+    if (token && config.headers) {
+      config.headers.Authorization = `Bearer ${token}`;
     }
-    return config;
-  },
-  (error) => Promise.reject(error)
-);
+  }
+  return config;
+});
 
-// Response interceptor to handle session expiries (401 Unauthorized)
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response?.status === 401) {
-      if (typeof window !== 'undefined') {
-        localStorage.removeItem('token');
-        localStorage.removeItem('user');
-        if (window.location.pathname !== '/login') {
-          window.location.href = '/login';
-        }
+    if (error.response?.status === 401 && typeof window !== "undefined") {
+      window.localStorage.removeItem("token");
+      window.localStorage.removeItem("user");
+
+      if (window.location.pathname !== "/login") {
+        window.location.href = "/login";
       }
     }
+
     return Promise.reject(error);
   }
 );

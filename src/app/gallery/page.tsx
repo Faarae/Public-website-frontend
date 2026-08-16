@@ -8,11 +8,11 @@ export default function GalleryPage() {
   const [activeCategory, setActiveCategory] = useState("ALL");
 
   const items = [
-    { id: "1", title: "d Zain al Mansion Exterior", category: "EXTERIOR", imageUrl: "/villa.jpg", desc: "Arsitektur tropis modern di tengah keasrian Lembang." },
-    { id: "2", title: "Kamar Utama Upper Suite", category: "BEDROOM", imageUrl: "/kamar atas.jpeg", desc: "Tempat tidur empat tiang kayu jati dengan pencahayaan hangat." },
-    { id: "3", title: "Kamar Utama Pool Suite", category: "BEDROOM", imageUrl: "/kamar bawah.jpeg", desc: "Akses langsung menuju kolam renang outdoor privat." },
+    { id: "1", title: "Villa Zain Exterior", category: "EXTERIOR", imageUrl: "/villa.jpg", desc: "Arsitektur modern bernuansa hangat di jantung Kota Medan." },
+    { id: "2", title: "Villa Zain Upper Suite", category: "BEDROOM", imageUrl: "/kamar atas.jpeg", desc: "Kamar utama dengan nuansa hangat dan sentuhan kayu yang menenangkan." },
+    { id: "3", title: "Villa Nina Pool Suite", category: "BEDROOM", imageUrl: "/kamar bawah.jpeg", desc: "Akses langsung menuju kolam renang outdoor privat yang tenang." },
     { id: "4", title: "Modern Designer Kitchen", category: "INTERIOR", imageUrl: "/dapur.jpeg", desc: "Dapur bersih lengkap dengan peralatan memasak kelas atas." },
-    { id: "5", title: "Private Pool Dusk View", category: "POOL", imageUrl: "/villa.jpg", desc: "Suasana senja di kolam renang outdoor." },
+    { id: "5", title: "Private Pool Dusk View", category: "POOL", imageUrl: "/villa.jpg", desc: "Suasana senja di kolam renang outdoor dengan ketenangan Medan." },
   ];
 
   const categories = [
@@ -39,10 +39,10 @@ export default function GalleryPage() {
             GALERI FOTO
           </span>
           <h1 className="font-headline text-3xl md:text-5xl text-primary font-normal">
-            Koleksi Visual Villa Kami
+            Koleksi Visual d Zain al Mansion di Medan
           </h1>
           <p className="font-body text-sm md:text-base text-on-surface-variant leading-relaxed">
-            Telusuri sudut-sudut keindahan desain interior dan arsitektur premium d Zain al Mansion.
+            Telusuri sudut-sudut keindahan desain interior, arsitektur premium, dan nuansa ketenangan yang hadir di jantung Kota Medan.
           </p>
         </div>
 

@@ -148,14 +148,10 @@ export default function PublicHomePage() {
               FILOSOFI KAMI
             </span>
             <h2 className="font-headline text-3xl md:text-4xl text-primary font-bold mb-6 leading-tight">
-              Arsitektur yang Bernapas dengan Alam
+              Oase Ketenangan di Jantung Kota Medan
             </h2>
             <p className="font-body text-base md:text-lg text-on-surface-variant mb-8 leading-relaxed">
-              d Zain al Mansion dirancang untuk menghadirkan harmoni sempurna antara
-              kemewahan modern dan keasrian alam tropis Lembang. Setiap sudut ruangan
-              adalah perayaan atas ketenangan, menggunakan material lokal
-              berkualitas tinggi untuk menciptakan pengalaman menginap yang tak
-              terlupakan.
+            d Zain al Mansion hadir sebagai oase ketenangan di jantung Kota Medan, memadukan privasi elegan dengan suasana hangat yang menenangkan. Setiap sudutnya dirancang untuk melepas penat dari hiruk-pikuk perkotaan, menghadirkan harmoni antara kenyamanan modern dan keteduhan yang membuat Anda merasa pulang ke rumah.
             </p>
             <Link
               className="font-label text-xs uppercase tracking-widest text-primary border-b-2 border-tertiary pb-1 hover:border-primary hover:text-tertiary transition-all font-bold inline-block"
@@ -194,19 +190,19 @@ export default function PublicHomePage() {
               <Link href="/accommodation" className="block overflow-hidden mb-6 aspect-video relative rounded-xl cursor-pointer">
                 <img
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  alt="Villa Aruna Kamar Atas"
+                  alt="Villa Zain Kamar Atas"
                   src="/kamar atas.jpeg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 flex flex-col justify-end text-white">
                   <span className="font-label text-[10px] uppercase tracking-widest text-tertiary font-bold">AKOMODASI</span>
-                  <h4 className="font-headline text-xl text-white font-bold drop-shadow-md">Villa Aruna Suite</h4>
+                  <h4 className="font-headline text-xl text-white font-bold drop-shadow-md">Villa Zain Suite</h4>
                   <p className="font-body text-xs text-white/90 mt-1">Klik untuk membuka detail akomodasi lengkap.</p>
                 </div>
               </Link>
               <div className="flex justify-between items-start mb-6">
                 <div>
                   <h3 className="font-headline text-2xl text-primary mb-2 font-bold">
-                    Villa Aruna
+                    Villa Zain
                   </h3>
                   <p className="font-body text-sm text-on-surface-variant mb-4">
                     Pemandangan taman tropis yang luas dengan teras pribadi yang intim.
@@ -230,7 +226,7 @@ export default function PublicHomePage() {
                 </div>
               </div>
               <Link
-                href="/book?villa=aruna"
+                href="/book?villa=zain"
                 className="block text-center w-full py-3.5 bg-primary text-on-primary font-label text-xs uppercase tracking-widest rounded-lg hover:bg-tertiary hover:text-white active:scale-95 transition-all duration-300 font-bold shadow-sm"
               >
                 PESAN SEKARANG
@@ -242,19 +238,19 @@ export default function PublicHomePage() {
               <Link href="/accommodation" className="block overflow-hidden mb-6 aspect-video relative rounded-xl cursor-pointer">
                 <img
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  alt="Villa Bhumi Kamar Bawah"
+                  alt="Villa Nina Kamar Bawah"
                   src="/kamar bawah.jpeg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 flex flex-col justify-end text-white">
                   <span className="font-label text-[10px] uppercase tracking-widest text-tertiary font-bold">AKOMODASI</span>
-                  <h4 className="font-headline text-xl text-white font-bold drop-shadow-md">Villa Bhumi Suite</h4>
+                  <h4 className="font-headline text-xl text-white font-bold drop-shadow-md">Villa Nina Suite</h4>
                   <p className="font-body text-xs text-white/90 mt-1">Klik untuk membuka detail akomodasi lengkap.</p>
                 </div>
               </Link>
               <div className="flex justify-between items-start mb-6">
                 <div>
                   <h3 className="font-headline text-2xl text-primary mb-2 font-bold">
-                    Villa Bhumi
+                    Villa Nina
                   </h3>
                   <p className="font-body text-sm text-on-surface-variant mb-4">
                     Akses langsung ke kolam renang dengan ruang tamu konsep terbuka yang mewah.
@@ -278,7 +274,7 @@ export default function PublicHomePage() {
                 </div>
               </div>
               <Link
-                href="/book?villa=bhumi"
+                href="/book?villa=nina"
                 className="block text-center w-full py-3.5 bg-primary text-on-primary font-label text-xs uppercase tracking-widest rounded-lg hover:bg-tertiary hover:text-white active:scale-95 transition-all duration-300 font-bold shadow-sm"
               >
                 PESAN SEKARANG
@@ -545,7 +541,7 @@ export default function PublicHomePage() {
                 ))}
               </div>
               <p className="font-body text-base text-on-surface mb-8 leading-relaxed font-medium">
-                &quot;Butler kami sangat membantu dan ramah. Villa Bhumi memberikan akses kolam renang yang fantastis. Pasti akan kembali lagi nanti!&quot;
+                &quot;Butler kami sangat membantu dan ramah. Villa Nina memberikan akses kolam renang yang fantastis. Pasti akan kembali lagi nanti!&quot;
               </p>
               <p className="font-label text-xs uppercase tracking-widest text-primary font-bold">
                 BUDI SANTOSO, JAKARTA

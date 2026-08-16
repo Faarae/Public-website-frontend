@@ -97,9 +97,6 @@ export default function PublicNavbar({ activeSection: explicitActive }: PublicNa
           <Link href="/#kontak" className={linkClass("kontak")}>
             Kontak
           </Link>
-          <Link href="/book" className={linkClass("reservasi")}>
-            Reservasi
-          </Link>
         </div>
 
         <div className="hidden md:flex items-center">

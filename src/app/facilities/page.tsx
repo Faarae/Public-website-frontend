@@ -9,7 +9,7 @@ export default function FacilitiesPage() {
   const mainFacilities = [
     {
       title: "Outdoor Infinity Pool",
-      desc: "Kolam renang outdoor privat berlatar lanskap tropis Lembang yang sejuk dan asri.",
+      desc: "Kolam renang outdoor privat dengan nuansa ketenangan di tengah kota Medan, cocok untuk bersantai di pagi dan malam hari.",
       icon: "pool",
       image: "/villa.jpg",
     },
@@ -57,8 +57,8 @@ export default function FacilitiesPage() {
       icon: "local_fire_department",
     },
     {
-      title: "Sarapan Spesial Khas Lembang",
-      desc: "Hidangan sarapan hangat disajikan langsung di villa setiap pagi sesuai selera Anda.",
+      title: "Sarapan Spesial Pilihan",
+      desc: "Hidangan sarapan hangat disajikan langsung di villa setiap pagi sesuai selera Anda, dengan pilihan menu yang menyegarkan dan familiy-friendly.",
       icon: "flatware",
     },
     {
